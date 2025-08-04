@@ -1,15 +1,15 @@
 import axios from "axios";
 
 export const authApi = axios.create({
-  baseURL: "http://13.201.177.37:8082/auth",
+  baseURL: "http://13.200.231.194:8082/auth",
 });
 
 export const bankApi = axios.create({
-  baseURL: "http://13.201.177.37:8083/account",
+  baseURL: "http://13.200.231.194:8083/account",
 });
 
 export const trxnApi = axios.create({
-  baseURL: "http://13.201.177.37:8084/transaction",
+  baseURL: "http://13.200.231.194:8084/transaction",
 });
 
 const getToken = () => {
